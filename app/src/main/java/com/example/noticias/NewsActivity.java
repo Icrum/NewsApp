@@ -54,9 +54,12 @@ public class NewsActivity extends AppCompatActivity {
             }
         });
 
+        Intent intent=getIntent();
+        final String value= intent.getStringExtra("category");
 
-        String pais = "pt";
-        String url= "https://newsapi.org/v2/top-headlines?country="+pais+"&apiKey=1765f87e4ebc40229e80fd0f75b6416c";
+
+        String categoria = value;
+        String url= "https://newsapi.org/v2/top-headlines?category="+categoria+"&language=pt&country=pt&apiKey=1aee768fcfe945e9bc8e8a689668ec67";
 
         VolleyHelper.getAllData(this, url, new VolleyHelper.OnGetAllDataListener() {
             @Override
