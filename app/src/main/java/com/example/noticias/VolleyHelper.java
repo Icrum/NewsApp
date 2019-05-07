@@ -15,7 +15,6 @@ import org.json.JSONObject;
 
 public class VolleyHelper {
 
-
     public interface OnGetAllDataListener {
         void onSuccess(JSONObject jsonObject);
     }
