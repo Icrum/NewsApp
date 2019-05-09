@@ -2,7 +2,12 @@
     <string name="app_name">Notícias</string>
     <string name="desporto">Sports</string>
     <string name="politca">Politics</string>
+    <string name="negocios">Business</string>
     <string name="saude">Health</string>
     <string name="Title">Title</string>
     <string name="Description">Description</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="science">Science</string>
+    <string name="technology">Technology</string>
+    <string name="general">General</string>
 </resources>

@@ -59,7 +59,7 @@ public class NewsActivity extends AppCompatActivity {
 
 
         String categoria = value;
-        String url= "https://newsapi.org/v2/top-headlines?category="+categoria+"&language=pt&apiKey=1aee768fcfe945e9bc8e8a689668ec67";
+        String url= "https://newsapi.org/v2/top-headlines?category="+categoria+"&language=pt&country=pt&apiKey=1aee768fcfe945e9bc8e8a689668ec67";
 
         VolleyHelper.getAllData(this, url, new VolleyHelper.OnGetAllDataListener() {
             @Override
